@@ -9,7 +9,7 @@ Solução:
 - Script para correção que deve ser executado no git bash:
 
 git clone --bare https://github.com/franciscolopes/repositorio-testes.git
-cd repo.git
+cd repositorio-testes.git
 
 git filter-branch --env-filter '
 OLD_EMAIL="francisco.cunha@sankhya.com.br"
@@ -27,10 +27,12 @@ then
 fi
 ' --tag-name-filter cat -- --branches --tags
 
+git log
+
 git push --force --tags origin 'refs/heads/*'
 
 cd ..
-rm -rf repo.git
+rm -rf repositorio-testes.git
 
 ############################################################################################
 
