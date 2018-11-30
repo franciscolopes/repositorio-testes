@@ -7,3 +7,7 @@ Solução:
 - https://stackoverflow.com/questions/750172/how-to-change-the-author-and-committer-name-and-e-mail-of-multiple-commits-in-gi
 - https://help.github.com/articles/changing-author-info/
 
+2- Remoção de commit
+
+Solução:
+- https://stackoverflow.com/questions/448919/how-can-i-remove-a-commit-on-github
