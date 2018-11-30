@@ -3,3 +3,7 @@ Testes realizados
 1- Alteração do e-mail do autor do commit (o commmit é incluído no gráfico somente se 
 atender um conjunto de requisitos: https://help.github.com/articles/why-are-my-contributions-not-showing-up-on-my-profile/#commit-was-made-in-a-fork)
 
+Solução:
+- https://stackoverflow.com/questions/750172/how-to-change-the-author-and-committer-name-and-e-mail-of-multiple-commits-in-gi
+- https://help.github.com/articles/changing-author-info/
+
