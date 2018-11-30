@@ -1,0 +1,5 @@
+Testes realizados
+
+1- Alteração do e-mail do autor do commit (o commmit é incluído no gráfico somente se 
+atender um conjunto de requisitos: https://help.github.com/articles/why-are-my-contributions-not-showing-up-on-my-profile/#commit-was-made-in-a-fork)
+
