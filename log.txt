@@ -12,9 +12,9 @@ git clone --bare https://github.com/franciscolopes/repositorio-testes.git
 cd repo.git
 
 git filter-branch --env-filter '
-OLD_EMAIL="your-old-email@example.com"
-CORRECT_NAME="Your Correct Name"
-CORRECT_EMAIL="your-correct-email@example.com"
+OLD_EMAIL="francisco.cunha@sankhya.com.br"
+CORRECT_NAME="Francisco Lopes"
+CORRECT_EMAIL="franciscolopesdacunha@gmail.com"
 if [ "$GIT_COMMITTER_EMAIL" = "$OLD_EMAIL" ]
 then
     export GIT_COMMITTER_NAME="$CORRECT_NAME"
