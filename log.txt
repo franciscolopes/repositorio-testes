@@ -34,6 +34,12 @@ git push --force --tags origin 'refs/heads/*'
 cd ..
 rm -rf repositorio-testes.git
 
+Caso ocorra conflito de diferença nas branch:
+git pull --rebase
+
+https://stackoverflow.com/questions/2472254/when-should-i-use-git-pull-rebase
+https://br.atlassian.com/git/tutorials/syncing/git-pull
+
 ############################################################################################
 
 
